@@ -18,6 +18,9 @@ public class Circle extends Entity {
                 } else {
                     System.out.print(" ");
                 }
+                if (x < radius) {
+                    System.out.print(" ");
+                }
             }
             System.out.println();
         }

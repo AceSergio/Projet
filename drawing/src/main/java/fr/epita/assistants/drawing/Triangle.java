@@ -14,9 +14,11 @@ public class Triangle extends Sharp {
                 } else {
                     System.out.print(" ");
                 }
+                if (i < j) {
+                    System.out.print(" ");
+                }
             }
             System.out.println();
         }
     }
 }
-

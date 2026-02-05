@@ -17,9 +17,11 @@ public class Rectangle extends Sharp {
                 } else {
                     System.out.print(" ");
                 }
+                if (i < width - 1) {
+                    System.out.print(" ");
+                }
             }
             System.out.println();
         }
     }
 }
-
